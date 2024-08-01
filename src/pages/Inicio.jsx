@@ -52,7 +52,7 @@ function Inicio() {
               </button>
 
               <a
-                href="https://github.com/Chiki975/portafolio-reactVite.git"
+                href="https://github.com/Chiki975/portafolio-projectReact"
                 target="_blank">
                 <button>
                   GitHub&nbsp;<i className="fa-brands fa-github"></i>
