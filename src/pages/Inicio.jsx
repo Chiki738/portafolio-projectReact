@@ -59,7 +59,7 @@ function Inicio() {
                 </button>
               </a>
 
-              <a href="/contacto">
+              <a href="/Contacto">
                 <button>
                   Contactar&nbsp;<i className="fa-solid fa-address-book"></i>
                 </button>
