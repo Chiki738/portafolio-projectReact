@@ -1,0 +1,47 @@
+.certificados-container{
+    margin-top: 50px;
+}
+
+
+/* .certificados-content{
+    width: 95%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.certificados-content h2 {
+    margin-top: 75px;
+    font-size: 80px;
+    text-shadow: 8px 8px 8px rgb(128, 128, 128);
+    text-align: center;
+}
+
+select {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+iframe {
+    margin-top: 15px;
+    width: 95%;
+    height: 100vh;
+}
+
+@media(max-width:1023px) and (min-width:768px) {
+
+    .certificados-content h2 {
+        font-size: 70px;
+        text-shadow: 5px 5px 5px rgb(128, 128, 128);
+    }
+
+}
+
+@media(max-width:767px) {
+
+    .certificados-content h2 {
+        font-size: 30px;
+        text-shadow: 3px 3px 3px rgb(128, 128, 128);
+    }
+} */
