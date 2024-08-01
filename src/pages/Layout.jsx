@@ -3,8 +3,8 @@ import { Outlet, Link } from "react-router-dom";
 import useHeaderVisibility from "../utils/useHeaderVisibility";
 import Footer from "../pages/Footer.jsx";
 import Dialogo from "../utils/dialog";
-import logo from "../../public/img/logo.png";
-import cv from "../../public/pdf/Cv-alz.pdf";
+import logo from "../img/logo.png";
+import cv from "../pdf/Cv-alz.pdf";
 import "../styles/layout-style.css";
 
 function Layout() {
