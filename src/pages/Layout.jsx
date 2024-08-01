@@ -67,14 +67,15 @@ function Layout() {
                 </Link>
               </li>
               <li>
-                <Link onClick={() => {
-                  const link = document.createElement("a");
-                  link.href = cv; // Aquí se asigna la ruta del PDF importado
-                  link.target = "_blank"; // El archivo se abrirá en una nueva pestaña
-                  document.body.appendChild(link);
-                  link.click();
-                  document.body.removeChild(link);
-                }}>
+                <Link
+                  onClick={() => {
+                    const link = document.createElement("a");
+                    link.href = cv; // Aquí se asigna la ruta del PDF importado
+                    link.target = "_blank"; // El archivo se abrirá en una nueva pestaña
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                  }}>
                   <i className="fa-solid fa-file">
                     <span>&#160;CV</span>
                   </i>
@@ -128,14 +129,15 @@ function Layout() {
                 </Link>
               </li>
               <li>
-                <Link onClick={() => {
-                  const link = document.createElement("a");
-                  link.href = cv; // Aquí se asigna la ruta del PDF importado
-                  link.target = "_blank"; // El archivo se abrirá en una nueva pestaña
-                  document.body.appendChild(link);
-                  link.click();
-                  document.body.removeChild(link);
-                }}>
+                <Link
+                  onClick={() => {
+                    const link = document.createElement("a");
+                    link.href = cv; // Aquí se asigna la ruta del PDF importado
+                    link.target = "_blank"; // El archivo se abrirá en una nueva pestaña
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                  }}>
                   <i className="fa-solid fa-file">
                     <span>&#160;CV</span>
                   </i>
