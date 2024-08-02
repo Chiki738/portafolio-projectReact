@@ -3,14 +3,17 @@ import "../styles/footer-style.css";
 function Footer() {
   return (
     <div className="footer-container">
-      <p>© 2024 Mi Portafolio. Todos los derechos reservados.</p>
+      <p>
+        <strong>© 2024 Mi Portafolio. Todos los derechos reservados.</strong>
+      </p>
       <div className="redes-enlace">
         <a
           href="https://api.whatsapp.com/send?phone=51956299119"
           title="WhatsApp"
           target="_blank"
           rel="noopener noreferrer">
-          WhatsApp&nbsp;<i className="fa-brands fa-whatsapp" id="whatsapp"></i>
+          <strong>WhatsApp</strong>&nbsp;
+          <i className="fa-brands fa-whatsapp" id="whatsapp"></i>
         </a>
 
         <a
@@ -18,7 +21,8 @@ function Footer() {
           title="Telegram"
           target="_blank"
           rel="noopener noreferrer">
-          Telegram&nbsp;<i className="fa-brands fa-telegram" id="telegram"></i>
+          <strong>Telegram</strong>&nbsp;
+          <i className="fa-brands fa-telegram" id="telegram"></i>
         </a>
 
         <a
@@ -26,7 +30,7 @@ function Footer() {
           title="LinkedIn"
           target="_blank"
           rel="noopener noreferrer">
-          LinkedIn&nbsp;
+          <strong>LinkedIn</strong>&nbsp;
           <i className="fa-brands fa-linkedin-in" id="linkedin"></i>
         </a>
 
@@ -35,7 +39,8 @@ function Footer() {
           title="GitHub"
           target="_blank"
           rel="noopener noreferrer">
-          GitHub&nbsp;<i className="fa-brands fa-github" id="github"></i>
+          <strong>GitHub</strong>&nbsp;
+          <i className="fa-brands fa-github" id="github"></i>
         </a>
 
         <a
@@ -43,7 +48,8 @@ function Footer() {
           title="Gmail"
           target="_blank"
           rel="noopener noreferrer">
-          Gmail&nbsp;<i className="fa-regular fa-envelope" id="gmail"></i>
+          <strong>Gmail</strong>&nbsp;
+          <i className="fa-regular fa-envelope" id="gmail"></i>
         </a>
       </div>
     </div>
