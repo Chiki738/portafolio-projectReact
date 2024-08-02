@@ -1,40 +1,33 @@
 .footer-container {
-    padding: 10px;
-}
-
-.footer-con-cv {
+    padding: 8px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 235, 88);
+    border-top: 1px solid #000000;
     flex-wrap: wrap;
 }
 
-.footer-con-cv>div {
-    width: 45%;
-}
-
-.footer-con-cv h4 {
+.footer-container>p {
+    font-size: 15px;
     text-align: center;
-    margin-top: 7px;
 }
 
-.footer-contacto-link {
+.redes-enlace {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 5px;
+    gap: 20px;
+    padding: 3px;
 }
 
-.footer-contacto-link i {
+.redes-enlace i {
     outline: 1px solid black;
     border-radius: 10px;
     padding: 5px;
 }
 
-.footer-contacto-link a {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+.redes-enlace a {
     text-decoration: none;
     text-align: 15px;
     color: black;
@@ -58,99 +51,16 @@
     background-color: #26aaff;
 }
 
-#whatsapp{
+#whatsapp {
     background-color: #4eff48;
 }
 
-#contacto {
-    padding: 5px;
-}
-
-#contacto,
-#cv {
-    padding-bottom: 5px;
-}
-
-#contacto:target,
-#cv:target {
-    outline: 1px solid gold;
-    animation: luz 4s ease-in-out forwards;
-}
-
-@keyframes luz {
-    0% {
-        box-shadow: 0 0 20px yellow;
-        outline: 1px solid gold;
-    }
-
-    50% {
-        box-shadow: 0 0 20px yellow;
-        outline: 1px solid #000000;
-    }
-
-    100% {
-        box-shadow: none;
-        outline: none;
-        border: none;
-    }
-}
-
-#cv {
-    text-align: center;
-}
-
-#cv p {
-    text-align: center;
-    margin-top: 7px;
-}
-
-#cv button {
-    margin-top: 5px;
-    border-radius: 15px;
-    border: 3px solid black;
-    font-size: 20px;
-    padding: 5px;
-    font-weight: bold;
-}
-
-#cv button:hover {
-    color: #072700;
-    background-color: #4eff48;
-    border-color: #072700;
+.redes-enlace a:hover {
     cursor: pointer;
 }
 
-h5 {
-    margin-top: 10px;
-    text-align: center;
-}
-
-@media(max-width:767px) {
-    .footer-con-cer-cv {
-        text-align: center;
-        flex-wrap: wrap;
-    }
-
-    #certificado {
-        margin-top: 10px;
-    }
-
-    #cv {
-        margin-top: 10px;
-    }
-
-    h5 {
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:350px) {
-    .footer-con-cv>div {
-        width: 90%;
-    }
-
-    .footer-con-cv {
+@media(max-width:940px) {
+    .footer-container {
         flex-direction: column;
-        align-items: center;
     }
 }

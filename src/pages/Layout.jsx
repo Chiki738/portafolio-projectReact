@@ -159,8 +159,6 @@ function Layout() {
 
       <Outlet />
 
-      <hr />
-
       <Footer />
     </div>
   );
