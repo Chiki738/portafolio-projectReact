@@ -8,7 +8,7 @@
 .sobreMi-container>div {
     max-width: 1200px;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .sobreMi-container h2 {
@@ -101,7 +101,7 @@
 
     .sobreMi-container {
         height: 100%;
-        margin-top: 40px;
+        margin-top: 5px;
     }
 
     .sobreMi-container h2 {
