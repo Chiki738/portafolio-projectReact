@@ -46,11 +46,6 @@ header a {
     text-shadow: 1px 3px 3px rgb(75, 75, 75);
 }
 
-.certificado {
-    font-family: 'Russo One', sans-serif;
-    font-weight: bold;
-}
-
 header a:hover {
     color: rgb(0, 38, 255);
     text-shadow: 1px 1px 1px rgb(70, 98, 255);
@@ -61,7 +56,7 @@ header a:hover {
 }
 
 .nav_ul a {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .toggle_btn,
