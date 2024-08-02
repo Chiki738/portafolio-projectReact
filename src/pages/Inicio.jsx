@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import perfil from "../img/foto-inicio.png";
 import "../styles/inicio-style.css";
 import cv from "../pdf/Cv-alz.pdf";
@@ -59,11 +60,11 @@ function Inicio() {
                 </button>
               </a>
 
-              <a href="/Contacto">
+              <Link to="/Contacto">
                 <button>
                   Contactar&nbsp;<i className="fa-solid fa-address-book"></i>
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
