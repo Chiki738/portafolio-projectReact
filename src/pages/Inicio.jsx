@@ -57,12 +57,6 @@ function Inicio() {
                   GitHub&nbsp;<i className="fa-brands fa-github"></i>
                 </button>
               </a>
-
-              <Link to="/Contacto">
-                <button>
-                  Contactar&nbsp;<i className="fa-solid fa-address-book"></i>
-                </button>
-              </Link>
             </div>
           </div>
         </div>
