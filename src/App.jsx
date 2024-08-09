@@ -5,7 +5,6 @@ import Inicio from "./pages/Inicio";
 import SobreMi from "./pages/SobreMi";
 import Proyectos from "./pages/Proyectos";
 import Certificados from "./pages/Certificados";
-import Contacto from "./pages/Contacto";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
           <Route path="SobreMi" element={<SobreMi />} />
           <Route path="Proyectos" element={<Proyectos />} />
           <Route path="Certificados" element={<Certificados />} />
-          <Route path="Contacto" element={<Contacto />} />
         </Route>
       </Routes>
     </HelmetProvider>

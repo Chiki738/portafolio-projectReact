@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import perfil from "../img/foto-inicio.png";
 import "../styles/inicio-style.css";
-import cv from "../pdf/Cv-alz.pdf";
+import cv from "../pdf/cv.pdf";
 
 function Inicio() {
   return (

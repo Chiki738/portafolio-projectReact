@@ -4,7 +4,7 @@ import useHeaderVisibility from "../utils/useHeaderVisibility";
 import Footer from "../pages/Footer.jsx";
 import Dialogo from "../utils/dialog";
 import logo from "../img/logo.png";
-import cv from "../pdf/Cv-alz.pdf";
+import cv from "../pdf/cv.pdf";
 import "../styles/layout-style.css";
 
 function Layout() {
