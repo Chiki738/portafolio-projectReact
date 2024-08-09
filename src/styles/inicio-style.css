@@ -6,18 +6,25 @@
     background-image: url("../img/fondoinicio.svg");
     background-size: cover;
     background-repeat: no-repeat;
+    min-width: 280px;
 }
 
 .presentacion-div {
     width: 80%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 10px;
 }
 
 .presentacion-div h1 {
     text-align: center;
+    color: white;
     font-size: 100px;
     font-weight: bold;
-    text-shadow: 5px 5px 10px rgb(128, 128, 128);
+    text-shadow: 3px 3px 8px rgb(128, 128, 128);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
@@ -25,13 +32,13 @@
 .presentacion-div p {
     text-align: center;
     font-weight: bold;
-    font-size: 22px;
-    margin-top: 13px;
+    font-size: 25px;
     color: white;
 }
 
 /*Codigo para la cartilla*/
 .cartilla-div-container {
+    min-width: 250px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -43,12 +50,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     padding: 0 10px;
 }
 
 .cartilla-div-figure {
-    max-width: 315px;
+    max-width: 250px;
+    width: 100%;
     min-width: 30px;
     border-radius: 50%;
 }
@@ -60,8 +68,13 @@
 }
 
 .cartilla-div-description {
-    width: 60%;
-    padding: 10px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
 }
 
 .cartilla-div-description h3 {
@@ -72,7 +85,6 @@
 }
 
 .cartilla-div-description p {
-    margin-top: 10px;
     font-size: 22px;
     text-align: center;
 }
@@ -81,8 +93,9 @@
 .cartilla-div-button {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 10px;
     flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
 }
 
 .cartilla-div-button button {
@@ -92,15 +105,20 @@
 }
 
 .cartilla-div-button button:hover {
-    background-color: yellow;
+    background-color: #ffee6f;
     cursor: pointer;
     box-shadow: 3px 3px 3px black;
 }
 
 /*Tablet*/
-@media only screen and (min-width:480px) and (max-width:1023px) {
+@media only screen and (min-width:426px) and (max-width:1023px) {
 
     /*Presentacion*/
+    .presentacion-div {
+        width: 90%;
+        text-align: center;
+    }
+
     .presentacion-div h1 {
         font-size: 60px;
     }
@@ -115,11 +133,12 @@
     }
 
     .cartilla-div-description {
-        width: 70%;
+        width: 85%;
+        padding: 10px;
     }
 
     .cartilla-div-figure {
-        max-width: 240px;
+        max-width: 200px;
     }
 
     .cartilla-div-description h3 {
@@ -136,9 +155,14 @@
 }
 
 /*Celular*/
-@media only screen and (max-width:479px) {
+@media only screen and (max-width:425px) {
 
     /*Presentacion*/
+
+    .presentacion-div {
+        width: 100%;
+    }
+
     .presentacion-div h1 {
         font-size: 40px;
     }
@@ -153,15 +177,16 @@
     }
 
     .cartilla-div-description {
-        width: 80%;
+        width: 95%;
+        padding: 10px;
     }
 
     .cartilla-div-figure {
-        max-width: 180px;
+        width: 150px;
     }
 
     .cartilla-div-description h3 {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .cartilla-div-description p {

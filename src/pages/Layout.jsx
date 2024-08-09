@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import useHeaderVisibility from "../utils/useHeaderVisibility";
 import Footer from "../pages/Footer.jsx";
 import Dialogo from "../utils/dialog";
-import logo from "../img/logo.png";
+import logo from "../img/logo.svg";
 import cv from "../pdf/cv.pdf";
 import "../styles/layout-style.css";
 
@@ -81,12 +81,15 @@ function Layout() {
                   </i>
                 </Link>
               </li>
+
               <li>
-                <Link to="/Contacto">
-                  <i className="fa-solid fa-address-book">
-                    <span>&#160;Contacto</span>
+                <a
+                  href="https://github.com/Chiki975/portafolio-projectReact.git"
+                  target="_blank">
+                  <i className="fa-solid fa-code-compare">
+                    <span>&#160;Repositorio</span>
                   </i>
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
@@ -144,11 +147,13 @@ function Layout() {
                 </Link>
               </li>
               <li>
-                <Link to="/Contacto" onClick={handleLinkClick}>
-                  <i className="fa-solid fa-address-book">
-                    <span>&#160;Contacto</span>
+                <a
+                  href="https://github.com/Chiki975/portafolio-projectReact.git"
+                  target="_blank">
+                  <i className="fa-solid fa-code-compare">
+                    <span>&#160;Repositorio</span>
                   </i>
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>

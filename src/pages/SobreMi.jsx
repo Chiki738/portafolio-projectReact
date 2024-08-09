@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import "../styles/sobreMi-style.css";
-import fotoSobreMi from "../img/foto-sobreMi.png";
+import fotoSobreMi from "../img/foto-sobremi.svg";
 
 function SobreMi() {
   return (

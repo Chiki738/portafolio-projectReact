@@ -22,13 +22,13 @@ function Dialog() {
       <>
         <div className="overlay"></div>
         <dialog open className="dialog-ms">
-          <p>
-            Visita mi repositorio para mencionar los errores encontrados. Tu
-            ayuda me perfeccionará como profesional y persona. Gracias por tu
-            visita 😊
-          </p>
+          <p>Visita mi repositorio para mencionar los errores encontrados.</p>
 
-          <button onClick={handleClick}>ACEPTAR</button>
+          <div>
+            <button onClick={handleClick}>
+              <i className="fa-solid fa-check"></i>&nbsp;ACEPTAR
+            </button>
+          </div>
         </dialog>
       </>
     )

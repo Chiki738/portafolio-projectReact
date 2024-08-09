@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import perfil from "../img/foto-inicio.png";
+import perfil from "../img/foto-inicio.svg";
 import "../styles/inicio-style.css";
 import cv from "../pdf/cv.pdf";
 
@@ -17,8 +17,7 @@ function Inicio() {
             <h1>PORTAFOLIO</h1>
             <p>
               Este portafolio destaca los conocimientos y los logros que se van
-              obteniendo a lo largo de mi trayectoria profesional y
-              personal.😉😉😊😊
+              obteniendo a lo largo de mi trayectoria profesional y personal.
             </p>
           </main>
         </div>
@@ -34,9 +33,8 @@ function Inicio() {
             <h3>CARLOS ALZAMORA</h3>
 
             <p>
-              Estudiante de Ingeniería de Sistemas e Informática en la
-              Universidad Tecnológica del Perú, con conocimientos en desarrollo
-              front-end.
+              Ingeniero de Sistemas e Informática en la Universidad Tecnológica
+              del Perú, con conocimientos en desarrollo front-end.
             </p>
 
             <div className="cartilla-div-button">
