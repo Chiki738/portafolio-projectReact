@@ -1,12 +1,11 @@
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
 import perfil from "../img/foto-inicio.svg";
 import "../styles/inicio-style.css";
 import cv from "../pdf/cv.pdf";
 
 function Inicio() {
   return (
-    <div>
+    <>
       <Helmet>
         <title>Portafolio</title>
       </Helmet>
@@ -61,7 +60,7 @@ function Inicio() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
