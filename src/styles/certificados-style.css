@@ -1,5 +1,30 @@
-.certificados-container{
-    margin-top: 50px;
+.certificados-container {
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding-top: 60px;
+}
+
+.certificados-container h2 {
+    text-align: center;
+    font-size: 68px;
+    text-shadow: 8px 8px 8px #808080;
+    font-style: italic;
+}
+
+.certificados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.certificados div{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
 }
 
 

@@ -11,7 +11,7 @@ function SobreMi() {
 
       <div className="sobreMi-container">
         <div>
-          <h2>SOBRE MÍ</h2>
+          <h3>SOBRE MÍ</h3>
           <div className="sobreMi-descripcion">
             <div>
               <figure>
