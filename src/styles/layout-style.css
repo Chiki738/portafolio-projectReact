@@ -1,7 +1,7 @@
 header {
     position: absolute;
     width: 100%;
-    background: #ffee6f;
+    background: rgb(255, 238, 111);
     transition: top 0s ease;
     border-bottom: 2px solid #000000;
     padding: 3px 0;
@@ -73,15 +73,15 @@ header a:hover {
     display: none;
     position: absolute;
     right: 0px;
-    height: 0;
+    height: 0px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.102);
+    background: rgba(255, 238, 111, 0.5);
     backdrop-filter: blur(15px);
     overflow: hidden;
 }
 
 .dropdown_menu.open {
-    height: 230px;
+    height: 250px;
 }
 
 .dropdown_menu ul {
@@ -92,14 +92,19 @@ header a:hover {
 
 .dropdown_menu li {
     padding: 10px 50px;
+    font-size: 20px;
 }
 
 .dropdown_menu span {
-    color: rgb(111, 58, 255);
+    color: rgb(177, 177, 177);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .dropdown_menu i {
-    color: rgb(111, 58, 255);
+    color: rgb(177, 177, 177);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 @media only screen and (max-width:1023px) {
