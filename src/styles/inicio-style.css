@@ -6,7 +6,6 @@
     background-image: url("../img/fondoinicio.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: 280px;
 }
 
 .presentacion-div {
@@ -38,7 +37,6 @@
 
 /*Codigo para la cartilla*/
 .cartilla-div-container {
-    min-width: 250px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -192,7 +190,7 @@
     .cartilla-div-description p {
         font-size: 13px;
     }
-    
+
     .cartilla-div-button button {
         font-size: 17px;
     }

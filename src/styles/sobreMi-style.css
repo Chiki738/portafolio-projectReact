@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    min-width: 280px;
     text-align: center;
 }
 
@@ -62,16 +61,15 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    min-width: 280px;
-    height: 40vh;
-    padding: 15px;
+    padding: 20px 0px 50px 0px;
+    box-sizing: border-box;
 }
 
 .sobreMi-informacion>div {
     display: flex;
     justify-content: space-evenly;
     max-width: 1050px;
-    width: 100%;
+    width: 90%;
     align-items: flex-start;
 }
 
@@ -101,16 +99,6 @@
     border-radius: 5px;
 }
 
-
-@media only screen and (max-width:645px) {
-    .sobreMi-descripcion>div {
-        flex-direction: column;
-        align-items: center;
-        width: 95%;
-        box-sizing: border-box;
-    }
-}
-
 @media only screen and (max-width:870px) {
     .sobreMi-informacion>div {
         display: flex;
@@ -120,13 +108,22 @@
     }
 
     .sobreMi-informacion fieldset {
-        width: 60%;
+        width: 70%;
+    }
+
+    @media only screen and (max-width:645px) {
+        .sobreMi-descripcion>div {
+            flex-direction: column;
+            align-items: center;
+            width: 95%;
+            box-sizing: border-box;
+        }
     }
 }
 
 /*Tablet*/
 @media only screen and (min-width:426px) and (max-width:1023px) {
-    .sobreMi-container h2 {
+    .sobreMi-container h3 {
         font-size: 60px;
     }
 
@@ -138,8 +135,8 @@
 /*Celular*/
 @media only screen and (max-width:425px) {
 
-    .sobreMi-container h2 {
-        font-size: 48px;
+    .sobreMi-container h3 {
+        font-size: 50px;
     }
 
     .sobreMi-descripcion p {
@@ -152,7 +149,7 @@
     }
 
     .sobreMi-informacion fieldset {
-        width: 85%;
+        width: 90%;
         padding: 5px;
     }
 

@@ -4,7 +4,6 @@ header {
     background: #ffee6f;
     transition: top 0s ease;
     border-bottom: 2px solid #000000;
-    min-width: 280px;
     padding: 3px 0;
 }
 

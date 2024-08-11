@@ -6,6 +6,8 @@
     background-color: #ffee6f;
     border-top: 1px solid #000000;
     flex-wrap: wrap;
+    min-width: 300px;
+    box-sizing: border-box;
 }
 
 .footer-container>p {
@@ -29,7 +31,7 @@
 
 .redes-enlace a {
     text-decoration: none;
-    text-align: 15px;
+    font-size: 15px;
     color: black;
 }
 
@@ -66,6 +68,18 @@
 
     .redes-enlace {
         margin-top: 8px;
+    }
+
+    @media(max-width:425px) {
+
+        .footer-container>p {
+            font-size: 13px;
+        }
+
+
+        .redes-enlace a {
+            font-size: 13px;
+        }
     }
 
 }
