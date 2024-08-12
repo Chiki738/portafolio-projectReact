@@ -25,7 +25,7 @@ const pdfs = [
   },
   {
     src: ingles,
-    title: "INGLÉS",
+    title: "INGLES",
     description:
       "Certificación obtenida en la Universidad Tecnológica del Perú, correspondiente al 4° ciclo, por haber completado satisfactoriamente el curso de Inglés. Este certificado refleja un dominio intermedio del idioma, enfocado en habilidades comunicativas y comprensión lectora.",
   },
