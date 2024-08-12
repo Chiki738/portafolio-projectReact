@@ -22,7 +22,7 @@
 
 .certificados>div {
     width: 23%;
-    height: 360px;
+    height: 270px;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -36,20 +36,6 @@
 .certificados h4 {
     font-size: 23px;
     text-align: center;
-}
-
-.iframe-container {
-    width: 180px;
-    height: 130px;
-    /* Puedes ajustar esta altura según necesites */
-}
-
-.certificados iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-    top: 0;
-    left: 0;
 }
 
 .certificados p {
@@ -81,15 +67,11 @@
 
     .certificados>div {
         width: 33%;
-        height: 250px;
+        height: 330px;
     }
 
     .certificados h4 {
         font-size: 20px;
-    }
-
-    .iframe-container {
-        display: none;
     }
 
     .certificados p {
@@ -97,7 +79,7 @@
         text-align: justify;
     }
 
-    @media only screen and (max-width:450px) {
+    @media only screen and (max-width:580px) {
         .certificados-container h3 {
             font-size: 40px;
         }
@@ -109,7 +91,8 @@
         }
 
         .certificados>div {
-            width: 60%;
+            width: 80%;
+            height: 280px;
         }
 
         .certificados h4 {
