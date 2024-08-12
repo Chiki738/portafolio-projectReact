@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import useHeaderVisibility from "../utils/useHeaderVisibility";
 import Footer from "../pages/Footer.jsx";
 import Dialogo from "../utils/dialog";
-import logo from "../img/logo.svg";
+import logo from "../assets/logo.svg";
 import cv from "../pdf/cv.pdf";
 import "../styles/layout-style.css";
 

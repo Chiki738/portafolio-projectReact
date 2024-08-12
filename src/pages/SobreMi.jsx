@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import "../styles/sobreMi-style.css";
-import fotoSobreMi from "../img/foto-sobremi.svg";
+import fotoSobreMi from "../assets/foto-sobremi.svg";
 
 function SobreMi() {
   return (
@@ -23,8 +23,7 @@ function SobreMi() {
                 soy estudiante de la carrera Ingeniería de Sistemas e
                 Informática. Poseo conocimiento en HTML, CSS, JavaScript, React
                 y Java. Mi objetivo es aprender más sobre el desarrollo web y
-                las aplicaciones de escritorio. Me apasiona la informática y
-                busco la excelencia académica.
+                las aplicaciones de escritorio.
               </p>
             </div>
           </div>

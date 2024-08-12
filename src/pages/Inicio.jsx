@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import perfil from "../img/foto-inicio.svg";
+import perfil from "../assets/foto-inicio.svg";
 import "../styles/inicio-style.css";
 import cv from "../pdf/cv.pdf";
 
