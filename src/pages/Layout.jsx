@@ -52,13 +52,13 @@ function Layout() {
                   </i>
                 </Link>
               </li>
-{/*               <li>
+              <li>
                 <Link to="/Proyectos">
                   <i className="fa-solid fa-code">
                     <span>&#160;Proyectos</span>
                   </i>
                 </Link>
-              </li> */}
+              </li>
               <li>
                 <Link to="/Certificados">
                   <i className="fa-solid fa-certificate">
@@ -117,13 +117,13 @@ function Layout() {
                   </i>
                 </Link>
               </li>
-{/*               <li>
+              <li>
                 <Link to="/Proyectos" onClick={handleLinkClick}>
                   <i className="fa-solid fa-code">
                     <span>&#160;Proyectos</span>
                   </i>
                 </Link>
-              </li> */}
+              </li>
               <li>
                 <Link to="/Certificados" onClick={handleLinkClick}>
                   <i className="fa-solid fa-certificate">
