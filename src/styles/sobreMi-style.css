@@ -27,7 +27,7 @@
 .sobreMi-descripcion>div {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: 80%;
     max-width: 1050px;
     padding: 10px;

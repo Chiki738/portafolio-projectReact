@@ -23,7 +23,6 @@
     color: white;
     font-size: 100px;
     font-weight: bold;
-    text-shadow: 3px 3px 8px rgb(128, 128, 128);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
@@ -50,6 +49,8 @@
     align-items: center;
     gap: 15px;
     padding: 0 10px;
+    max-width: 1024px;
+    width: 100%;
 }
 
 .cartilla-div-figure {
@@ -61,7 +62,7 @@
 
 .cartilla-div-figure img {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 20px;
     outline: 3px solid rgb(0, 0, 0);
 }
 
