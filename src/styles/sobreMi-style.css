@@ -11,13 +11,6 @@
     flex-direction: column;
 }
 
-.sobreMi-container h3 {
-    text-align: center;
-    font-size: 68px;
-    text-shadow: 8px 8px 8px #808080;
-    font-style: italic;
-}
-
 .sobreMi-descripcion {
     display: flex;
     justify-content: center;
@@ -46,12 +39,12 @@
     box-shadow: 8px 8px 8px #3f3f3f;
 }
 
-.sobreMi-descripcion p {
+/* .sobreMi-descripcion p {
     padding: 15px;
     font-size: 18px;
     text-align: justify;
     width: 60%;
-}
+} */
 
 .sobreMi-descripcion strong {
     font-style: italic;
@@ -79,10 +72,10 @@
     border-width: 5px;
 }
 
-.sobreMi-informacion legend {
+/* .sobreMi-informacion legend {
     text-align: center;
     font-size: 20px;
-}
+} */
 
 .sobreMi-informacion ul {
     display: flex;
@@ -123,26 +116,26 @@
 
 /*Tablet*/
 @media only screen and (min-width:426px) and (max-width:1023px) {
-    .sobreMi-container h3 {
+    /* .sobreMi-container h3 {
         font-size: 60px;
     }
 
     .sobreMi-descripcion p {
         font-size: 15px;
-    }
+    } */
 }
 
 /*Celular*/
 @media only screen and (max-width:425px) {
 
-    .sobreMi-container h3 {
+    /* .sobreMi-container h3 {
         font-size: 50px;
-    }
+    } */
 
-    .sobreMi-descripcion p {
+    /* .sobreMi-descripcion p {
         font-size: 15px;
         width: 100%;
-    }
+    } */
 
     .informacion fieldset {
         width: 80%;
@@ -153,8 +146,8 @@
         padding: 5px;
     }
 
-    .sobreMi-informacion legend {
+    /* .sobreMi-informacion legend {
         font-size: 16px;
         padding: 0 5px;
-    }
+    } */
 }

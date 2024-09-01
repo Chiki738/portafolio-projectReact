@@ -26,7 +26,7 @@
 
 
 .dialog-ms p {
-    font-size: 20px;
+    font-size: clamp(1rem, 0.821rem + 0.476vw, 1.25rem);
     font-weight: bold;
 }
 
@@ -38,31 +38,9 @@
     cursor: pointer;
     margin-top: 10px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: clamp(1rem, 0.786rem + 0.571vw, 1.3rem);
 }
 
 .dialog-ms button:hover {
     background-color: #ffe627;
-}
-
-/*Tablet*/
-@media only screen and (min-width:426px) and (max-width:1023px) {
-    .dialog-ms p {
-        font-size: 18px;
-    }
-
-    .dialog-ms button {
-        font-size: 18px;
-    }
-}
-
-/*Celular*/
-@media only screen and (max-width:425px) {
-    .dialog-ms p {
-        font-size: 15px;
-    }
-
-    .dialog-ms button {
-        font-size: 15px;
-    }
 }

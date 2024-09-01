@@ -22,7 +22,9 @@ function Dialog() {
       <>
         <div className="overlay"></div>
         <dialog open className="dialog-ms">
-          <p>Visita mi repositorio para mencionar los errores encontrados.</p>
+          <p>
+            Visita mi repositorio para reportar errores o compartir sugerencias.
+          </p>
 
           <div>
             <button onClick={handleClick}>

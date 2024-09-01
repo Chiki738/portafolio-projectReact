@@ -18,21 +18,12 @@
     padding: 0 10px;
 }
 
-.presentacion-div h1 {
-    text-align: center;
-    color: white;
-    font-size: 100px;
-    font-weight: bold;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-}
-
-.presentacion-div p {
+/* .presentacion-div p {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
     color: white;
-}
+} */
 
 /*Codigo para la cartilla*/
 .cartilla-div-container {
@@ -76,7 +67,7 @@
     padding: 15px;
 }
 
-.cartilla-div-description h3 {
+/* .cartilla-div-description h3 {
     font-size: 60px;
     font-weight: bold;
     text-align: center;
@@ -86,7 +77,7 @@
 .cartilla-div-description p {
     font-size: 22px;
     text-align: center;
-}
+} */
 
 /*Botones*/
 .cartilla-div-button {
@@ -97,11 +88,11 @@
     gap: 15px;
 }
 
-.cartilla-div-button button {
+/* .cartilla-div-button button {
     font-size: 23px;
     padding: 5px;
     border-radius: 10px;
-}
+} */
 
 .cartilla-div-button button:hover {
     background-color: #ffee6f;
@@ -118,13 +109,13 @@
         text-align: center;
     }
 
-    .presentacion-div h1 {
+    /* .presentacion-div h1 {
         font-size: 60px;
     }
 
     .presentacion-div p {
         font-size: 16px;
-    }
+    } */
 
     /*Cartilla*/
     .cartilla-div {
@@ -140,17 +131,17 @@
         max-width: 200px;
     }
 
-    .cartilla-div-description h3 {
+    /* .cartilla-div-description h3 {
         font-size: 30px;
-    }
+    } */
 
-    .presentacion-div p {
+    /* .presentacion-div p {
         font-size: 16px;
-    }
+    } */
 
-    .cartilla-div-button button {
+    /* .cartilla-div-button button {
         font-size: 20px;
-    }
+    } */
 }
 
 /*Celular*/
@@ -162,13 +153,13 @@
         width: 100%;
     }
 
-    .presentacion-div h1 {
+    /* .presentacion-div h1 {
         font-size: 40px;
     }
 
     .presentacion-div p {
         font-size: 13px;
-    }
+    } */
 
     /*Cartilla*/
     .cartilla-div {
@@ -184,7 +175,7 @@
         width: 150px;
     }
 
-    .cartilla-div-description h3 {
+    /* .cartilla-div-description h3 {
         font-size: 20px;
     }
 
@@ -194,5 +185,5 @@
 
     .cartilla-div-button button {
         font-size: 17px;
-    }
+    } */
 }
