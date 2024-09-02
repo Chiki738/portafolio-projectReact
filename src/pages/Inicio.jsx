@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import perfil from "../assets/foto-inicio.svg";
 import "../styles/inicio-style.css";
-import cv from "../pdf/cv.pdf";
+import cv from "../pdf/Carlos_Alzamora_CV_FrontEnd.pdf";
 
 function Inicio() {
   return (
@@ -37,17 +37,11 @@ function Inicio() {
             </p>
 
             <div className="cartilla-div-button">
-              <button
-                onClick={() => {
-                  const link = document.createElement("a");
-                  link.href = cv; // Aquí se asigna la ruta del PDF importado
-                  link.target = "_blank"; // El archivo se abrirá en una nueva pestaña
-                  document.body.appendChild(link);
-                  link.click();
-                  document.body.removeChild(link);
-                }}>
-                Ver CV&nbsp;<i className="fa-solid fa-file"></i>
-              </button>
+              <a href={cv} target="_blanck">
+                <button>
+                  Ver CV&nbsp;<i className="fa-solid fa-file"></i>
+                </button>
+              </a>
 
               <a
                 href="https://github.com/Chiki975/portafolio-projectReact"

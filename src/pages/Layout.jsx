@@ -1,37 +1,62 @@
 import { useState, useEffect } from "react";
 import { Outlet, Link } from "react-router-dom";
-import useHeaderVisibility from "../utils/useHeaderVisibility";
-import Footer from "../pages/Footer.jsx";
-import Dialogo from "../utils/dialog";
+import Dialogo from "../pages/Dialog.jsx";
 import logo from "../assets/logo.svg";
-import cv from "../pdf/cv.pdf";
+import cv from "../pdf/Carlos_Alzamora_CV_FrontEnd.pdf";
+import DropdownMenu from "../pages/DropdownMenu.jsx";
+import Footer from "../pages/Footer.jsx";
 import "../styles/layout-style.css";
 
 function Layout() {
   const [isOpen, setIsOpen] = useState(false);
-  const isHeaderVisible = useHeaderVisibility();
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 1024);
+  const [isScrolled, setIsScrolled] = useState(false); // Estado para detectar el scroll
 
+  // Maneja el clic en el botón de alternancia
   const handleClick = () => {
-    setIsOpen(!isOpen);
+    if (!isLargeScreen) {
+      setIsOpen(!isOpen);
+    }
   };
 
-  const handleLinkClick = () => {
-    setIsOpen(false);
+  // Actualiza el tamaño de la pantalla
+  const updateScreenSize = () => {
+    setIsLargeScreen(window.innerWidth >= 1024);
+  };
+
+  // Maneja el scroll de la ventana
+  const handleScroll = () => {
+    setIsScrolled(window.scrollY > 0); // Detecta si se ha hecho scroll
+    if (!isLargeScreen && isOpen) {
+      setIsOpen(false); // Cierra el menú en pantallas pequeñas si se hace scroll
+    }
   };
 
   useEffect(() => {
-    if (!isHeaderVisible) {
-      setIsOpen(false);
+    // Añadir los event listeners para resize y scroll
+    window.addEventListener("resize", updateScreenSize);
+    window.addEventListener("scroll", handleScroll);
+
+    // Limpiar los event listeners al desmontar el componente
+    return () => {
+      window.removeEventListener("resize", updateScreenSize);
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [isLargeScreen, isOpen]);
+
+  useEffect(() => {
+    if (isOpen && isLargeScreen) {
+      setIsOpen(false); // Cerrar el menú si se cambia a una pantalla grande
     }
-  }, [isHeaderVisible]);
+  }, [isLargeScreen]);
 
   return (
-    <div id="layout-container">
-      <header style={{ top: isHeaderVisible ? "0" : "-100%" }}>
+    <div>
+      <header className={isScrolled ? "fixed" : ""}>
         <div className="navbar">
           <Link to="/" id="layout_navbar-logo" className="navbar-logo">
             <figure>
-              <img src={logo} alt="pikachu.png" title="Logo" />
+              <img src={logo} alt="Logo" title="Logo" />
             </figure>
             <h2>CHIKI</h2>
           </Link>
@@ -81,7 +106,6 @@ function Layout() {
                   </i>
                 </Link>
               </li>
-
               <li>
                 <a
                   href="https://github.com/Chiki975/portafolio-projectReact.git"
@@ -96,68 +120,17 @@ function Layout() {
 
           <div className="toggle_btn" onClick={handleClick}>
             <i
-              className={isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
+              className={
+                isLargeScreen
+                  ? "fa-solid fa-bars"
+                  : isOpen
+                  ? "fa-solid fa-xmark"
+                  : "fa-solid fa-bars"
+              }></i>
           </div>
         </div>
 
-        <div className={`dropdown_menu ${isOpen ? "open" : ""}`}>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/" onClick={handleLinkClick}>
-                  <i className="fa-solid fa-house">
-                    <span>&#160;Inicio</span>
-                  </i>
-                </Link>
-              </li>
-              <li>
-                <Link to="/SobreMi" onClick={handleLinkClick}>
-                  <i className="fa-solid fa-user">
-                    <span>&#160;Sobre&#160;Mí</span>
-                  </i>
-                </Link>
-              </li>
-              <li>
-                <Link to="/Proyectos" onClick={handleLinkClick}>
-                  <i className="fa-solid fa-code">
-                    <span>&#160;Proyectos</span>
-                  </i>
-                </Link>
-              </li>
-              <li>
-                <Link to="/Certificados" onClick={handleLinkClick}>
-                  <i className="fa-solid fa-certificate">
-                    <span>&#160;Certificados</span>
-                  </i>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  onClick={() => {
-                    const link = document.createElement("a");
-                    link.href = cv; // Aquí se asigna la ruta del PDF importado
-                    link.target = "_blank"; // El archivo se abrirá en una nueva pestaña
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
-                  }}>
-                  <i className="fa-solid fa-file">
-                    <span>&#160;CV</span>
-                  </i>
-                </Link>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/Chiki975/portafolio-projectReact.git"
-                  target="_blank">
-                  <i className="fa-solid fa-code-compare">
-                    <span>&#160;Repositorio</span>
-                  </i>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <DropdownMenu isOpen={isOpen} handleLinkClick={handleClick} />
       </header>
 
       <Dialogo />

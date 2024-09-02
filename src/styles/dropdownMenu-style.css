@@ -1,0 +1,24 @@
+.dropdown_menu {
+    position: absolute;
+    width: 100%;
+    background: rgba(255, 238, 111, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+.dropdown_menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown_menu li {
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+/* Ocultar el menú en pantallas grandes */
+@media (min-width: 1024px) {
+    .dropdown_menu {
+        display: none;
+    }
+}
