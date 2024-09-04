@@ -53,13 +53,13 @@
     align-items: center;
     gap: 15px;
     padding: 0 10px;
-    max-width: 1100px;
+    max-width: 1500px;
     width: 100%;
 }
 
 .cartilla-div-figure {
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 230px;
+    max-width: 230px;
 }
 
 .cartilla-div-figure img {

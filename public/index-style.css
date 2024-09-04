@@ -4,6 +4,10 @@
   font-family: 'Russo One', sans-serif;
 }
 
+:root {
+  color-scheme: light;
+}
+
 li {
   list-style: none;
 }
