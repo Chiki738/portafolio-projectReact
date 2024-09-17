@@ -47,7 +47,7 @@ function SobreMi() {
                     <h4>Descripción</h4>
                   </legend>
                   <p>
-                    Mi nombre es <strong>Carlos Daniel Alzamora Huamán</strong>{" "}
+                    Mi nombre es <strong>Carlos Alzamora</strong>{" "}
                     y soy estudiante de la carrera Ingeniería de Sistemas e
                     Informática. Poseo conocimiento en HTML, CSS, JavaScript,
                     React y Java. Mi objetivo es aprender más sobre el
@@ -55,7 +55,7 @@ function SobreMi() {
                   </p>
                 </fieldset>
 
-                <fieldset
+                <fieldset id="cualidades"
                   className={visibleFieldset === 1 ? "visible" : "hidden"}>
                   <legend>
                     <h4>Cualidades y Aptitudes</h4>
@@ -73,7 +73,7 @@ function SobreMi() {
                   </ul>
                 </fieldset>
 
-                <fieldset
+                <fieldset id="hobbies"
                   className={visibleFieldset === 2 ? "visible" : "hidden"}>
                   <legend>
                     <h4>Hobbies</h4>

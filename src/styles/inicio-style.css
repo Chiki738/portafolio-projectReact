@@ -156,5 +156,9 @@
         .cartilla-div-button a {
             width: 100%;
         }
+
+        .cartilla-div-description p {
+            text-align: justify;
+        }
     }
 }
