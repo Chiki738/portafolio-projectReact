@@ -122,7 +122,7 @@ const proyectos = [
 function Proyectos() {
   return (
     <div className="proyectos-container">
-      <h3>Proyectos</h3>
+      <h3>PROYECTOS</h3>
 
       <div className="proyectos">
         {proyectos.map((proyecto, index) => (
@@ -130,9 +130,9 @@ function Proyectos() {
             <h4>{proyecto.title}</h4>
 
             <div>
-              <figure className="proyectos-figure">
+              {/* <figure className="proyectos-figure">
                 <img src={proyecto.imgSrc} />
-              </figure>
+              </figure> */}
 
               <p>
                 <strong>DESCRIPCIÓN:</strong>&nbsp;{proyecto.description}
@@ -140,13 +140,13 @@ function Proyectos() {
 
               <div className="proyectos-tecnologia">
                 <h5>Tecnología usada:</h5>
-                <div>
+                {/* <div>
                   {proyecto.tecnologias.map((tec, i) => (
                     <figure key={i}>
                       <img src={tec.src} />
                     </figure>
                   ))}
-                </div>
+                </div> */}
               </div>
 
               <div className="proyectos-button">

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import "../styles/sobreMi-style.css";
-import fotoSobreMi from "../assets/foto-sobremi.svg";
+import fotoSobreMi from "../assets/fotoSobreMi.svg";
 
 function SobreMi() {
   const [visibleFieldset, setVisibleFieldset] = useState(0);
@@ -47,15 +47,16 @@ function SobreMi() {
                     <h4>Descripción</h4>
                   </legend>
                   <p>
-                    Mi nombre es <strong>Carlos Alzamora</strong>{" "}
-                    y soy estudiante de la carrera Ingeniería de Sistemas e
+                    Mi nombre es <strong>Carlos Alzamora</strong> y soy
+                    estudiante de la carrera Ingeniería de Sistemas e
                     Informática. Poseo conocimiento en HTML, CSS, JavaScript,
                     React y Java. Mi objetivo es aprender más sobre el
                     desarrollo web y las aplicaciones de escritorio.
                   </p>
                 </fieldset>
 
-                <fieldset id="cualidades"
+                <fieldset
+                  id="cualidades"
                   className={visibleFieldset === 1 ? "visible" : "hidden"}>
                   <legend>
                     <h4>Cualidades y Aptitudes</h4>
@@ -73,7 +74,8 @@ function SobreMi() {
                   </ul>
                 </fieldset>
 
-                <fieldset id="hobbies"
+                <fieldset
+                  id="hobbies"
                   className={visibleFieldset === 2 ? "visible" : "hidden"}>
                   <legend>
                     <h4>Hobbies</h4>
