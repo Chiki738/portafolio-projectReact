@@ -18,7 +18,9 @@ const proyectos = [
     title: "ENCRIPTADOR DE TEXTO",
     imgSrc: encriptador,
     description:
-      "Proyecto realizado en el primer desafío del Programa One. Permite desencriptar y encriptar el texto ingresado.",
+      "Este proyecto fue desarrollado durante el primer desafío del Programa One." +
+      " Permite encriptar y desencriptar texto ingresado, aceptando únicamente letras en minúscula." +
+      " Es compatible con dispositivos móviles, tablets, laptops y PCs.",
     tecnologias: [
       { src: html },
       { src: css },
@@ -44,7 +46,9 @@ const proyectos = [
     title: "CAFÉ NOIR",
     imgSrc: cafe,
     description:
-      "Desarrollo de una aplicación web para optimizar la atención al cliente en cafeterías, enfocándose en reducir tiempos de espera y mejorar la satisfacción del cliente.",
+      "Desarrollo de una aplicación web para optimizar la atención al cliente en cafeterías. " +
+      "La aplicación permite realizar compras, gestionar pedidos y llevar a cabo el proceso de pago, " +
+      " además de enviar un correo notificando que el pedido ha sido realizado.",
     tecnologias: [
       { src: html },
       { src: css },
@@ -70,7 +74,9 @@ const proyectos = [
     title: "RECICLA PERÚ",
     imgSrc: recicla,
     description:
-      "Proyecto que busca promover el reciclaje de residuos electrónicos mediante la recolección, procesamiento y sensibilización sobre su impacto ambiental..",
+      "Proyecto que busca promover el reciclaje de residuos electrónicos mediante la recolección, " +
+      "el procesamiento y la sensibilización sobre su impacto ambiental. Además, incluye un sistema " +
+      "de inicio de sesión con acceso de administrador y gráficos estadísticos.",
     tecnologias: [
       { src: html },
       { src: css },
@@ -96,7 +102,9 @@ const proyectos = [
   {
     title: "VENTA DE CELULARES",
     imgSrc: venta,
-    description: "Proyecto realizado para la venta de celulares.",
+    description:
+      "Proyecto desarrollado para la venta de celulares, " +
+      "que incluye un sistema de inicio de sesión para acceder a la cuenta y un proceso de pago.",
     tecnologias: [
       { src: html },
       { src: css },
@@ -130,9 +138,9 @@ function Proyectos() {
             <h4>{proyecto.title}</h4>
 
             <div>
-              {/* <figure className="proyectos-figure">
+              <figure className="proyectos-figure">
                 <img src={proyecto.imgSrc} />
-              </figure> */}
+              </figure>
 
               <p>
                 <strong>DESCRIPCIÓN:</strong>&nbsp;{proyecto.description}
@@ -140,13 +148,13 @@ function Proyectos() {
 
               <div className="proyectos-tecnologia">
                 <h5>Tecnología usada:</h5>
-                {/* <div>
+                <div>
                   {proyecto.tecnologias.map((tec, i) => (
                     <figure key={i}>
                       <img src={tec.src} />
                     </figure>
                   ))}
-                </div> */}
+                </div>
               </div>
 
               <div className="proyectos-button">

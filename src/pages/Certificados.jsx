@@ -18,16 +18,16 @@ import logica from "../pdf/logicaprogramaacion.pdf";
 
 const pdfs = [
   {
-    src: excel,
-    title: "EXCEL",
-    description:
-      "Certificado de competencia en Excel avanzado, otorgado por la Universidad Tecnológica del Perú, tras la finalización exitosa del curso de Herramientas Informáticas para la Toma de Decisiones en el 5° ciclo. Este curso profundiza en técnicas de análisis de datos y toma de decisiones empresariales utilizando Excel.",
-  },
-  {
     src: ingles,
     title: "INGLES",
     description:
       "Certificación obtenida en la Universidad Tecnológica del Perú, correspondiente al 4° ciclo, por haber completado satisfactoriamente el curso de Inglés. Este certificado refleja un dominio intermedio del idioma, enfocado en habilidades comunicativas y comprensión lectora.",
+  },
+  {
+    src: excel,
+    title: "EXCEL",
+    description:
+      "Certificado de competencia en Excel avanzado, otorgado por la Universidad Tecnológica del Perú, tras la finalización exitosa del curso de Herramientas Informáticas para la Toma de Decisiones en el 5° ciclo. Este curso profundiza en técnicas de análisis de datos y toma de decisiones empresariales utilizando Excel.",
   },
   {
     src: soporte,
@@ -41,18 +41,7 @@ const pdfs = [
     description:
       "Certificación obtenida en el PROGRAMA ONE por completar el desafío de desarrollo de un encriptador de texto. Este reto involucró la aplicación de principios de seguridad informática y criptografía básica, demostrando competencias en lógica de programación.",
   },
-  {
-    src: chatgpt,
-    title: "CHAT-GPT",
-    description:
-      "Certificado de participación en el PROGRAMA ONE, centrado en el uso de tecnologías avanzadas como Chat-GPT. Este curso abarcó la implementación de modelos de lenguaje natural y su integración en aplicaciones prácticas dentro del ámbito de la programación.",
-  },
-  {
-    src: foco,
-    title: "GESTIÓN Y FOCO",
-    description:
-      "Certificación obtenida en el PROGRAMA ONE en la categoría de Innovación y Gestión. Este certificado destaca la capacidad para gestionar proyectos con un enfoque innovador y metodologías ágiles, esenciales para el liderazgo en entornos tecnológicos.",
-  },
+
   {
     src: git,
     title: "CONTROL DE VERSIONES: GIT Y GITHUB",
@@ -94,6 +83,18 @@ const pdfs = [
     title: "FUNDAMENTOS DE LÓGICA DE PROGRAMACIÓN",
     description:
       "Certificación obtenida en el PROGRAMA ONE en lógica de programación, enfocada en el uso de JavaScript para desarrollar soluciones a problemas comunes en programación, incluyendo el uso de funciones, arrays, y control de flujo.",
+  },
+  {
+    src: chatgpt,
+    title: "CHAT-GPT",
+    description:
+      "Certificado de participación en el PROGRAMA ONE, centrado en el uso de tecnologías avanzadas como Chat-GPT. Este curso abarcó la implementación de modelos de lenguaje natural y su integración en aplicaciones prácticas dentro del ámbito de la programación.",
+  },
+  {
+    src: foco,
+    title: "GESTIÓN Y FOCO",
+    description:
+      "Certificación obtenida en el PROGRAMA ONE en la categoría de Innovación y Gestión. Este certificado destaca la capacidad para gestionar proyectos con un enfoque innovador y metodologías ágiles, esenciales para el liderazgo en entornos tecnológicos.",
   },
 ];
 

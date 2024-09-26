@@ -2,6 +2,24 @@ import { Helmet } from "react-helmet-async";
 import perfil from "../assets/fotoInicio.svg";
 import "../styles/inicio-style.css";
 import cv from "../pdf/Carlos_Alzamora_CV_FrontEnd.pdf";
+import html from "../img/html.png";
+import css from "../img/css.png";
+import js from "../img/js.png";
+import github from "../img/gitHub.png";
+import vercel from "../img/vercel.png";
+import bot from "../img/botpress.png";
+
+// Corregimos la declaración de herramientas
+const herramientas = {
+  tecnologias: [
+    { src: html, alt: "HTML" },
+    { src: css, alt: "CSS" },
+    { src: js, alt: "JavaScript" },
+    { src: github, alt: "GitHub" },
+    { src: vercel, alt: "Vercel" },
+    { src: bot, alt: "Botpress" },
+  ],
+};
 
 function Inicio() {
   return (
@@ -19,6 +37,20 @@ function Inicio() {
               obteniendo a lo largo de mi trayectoria profesional y personal.
             </p>
           </main>
+        </div>
+      </div>
+
+      <div className="herramientas">
+        <div>
+          <h3>TECNOLOGÍAS UTILIZADAS</h3>
+          <div className="tecnologias-grid">
+            {/* Mapear correctamente herramientas.tecnologias */}
+            {herramientas.tecnologias.map((tec, i) => (
+              <figure key={i}>
+                <img src={tec.src} alt={tec.alt} />
+              </figure>
+            ))}
+          </div>
         </div>
       </div>
 

@@ -13,7 +13,6 @@ function Footer() {
           title="LinkedIn"
           target="_blank"
           rel="noopener noreferrer">
-          <strong>LinkedIn</strong>&nbsp;
           <i className="fa-brands fa-linkedin-in" id="linkedin"></i>
         </a>
 
@@ -22,34 +21,30 @@ function Footer() {
           title="GitHub"
           target="_blank"
           rel="noopener noreferrer">
-          <strong>GitHub</strong>&nbsp;
           <i className="fa-brands fa-github" id="github"></i>
         </a>
 
         <a
-          href="https://api.whatsapp.com/send?phone=51956299119"
+          href=""
           title="WhatsApp"
           target="_blank"
           rel="noopener noreferrer">
-          <strong>WhatsApp</strong>&nbsp;
           <i className="fa-brands fa-whatsapp" id="whatsapp"></i>
         </a>
 
         <a
-          href="https://t.me/Chiki738"
+          href=""
           title="Telegram"
           target="_blank"
           rel="noopener noreferrer">
-          <strong>Telegram</strong>&nbsp;
           <i className="fa-brands fa-telegram" id="telegram"></i>
         </a>
 
         <a
-          href="mailto:carlosalzamorahuaman@gmail.com"
+          href=""
           title="Gmail"
           target="_blank"
           rel="noopener noreferrer">
-          <strong>Gmail</strong>&nbsp;
           <i className="fa-regular fa-envelope" id="gmail"></i>
         </a>
       </div>

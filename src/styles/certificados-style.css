@@ -1,21 +1,33 @@
 .certificados-container {
-    box-sizing: border-box;
     min-height: 100vh;
-    padding-top: 60px;
+    min-width: 300px;
+    padding-top: 75px;
     padding-bottom: 50px;
+}
+
+.certificados-container h3 {
+    text-align: center;
+    font-size: clamp(2.8rem, 0.871rem + 5.143vw, 5.5rem);
+    text-shadow: 5px 5px 5px #808080;
 }
 
 .certificados {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 30px;
-    gap: 50px;
+    gap: 55px;
+}
+
+.certificados h4{
+    font-size: clamp(1.3rem, 1.157rem + 0.381vw, 1.5rem);
+    text-align: center;
 }
 
 .certificados>div {
-    width: 23%;
-    height: 270px;
+    min-height: 280px;
+    max-width: 300px;
+    height: 330px;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -26,13 +38,18 @@
     background-color: rgb(224, 255, 203);
 }
 
-/* .certificados button {
+.certificados p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.certificados button {
     padding: 8px;
     font-size: 15px;
     font-weight: bolder;
     border-radius: 10px;
     background-color: rgb(255, 255, 226);
-} */
+}
 
 .certificados button:hover {
     background-color: rgb(255, 238, 111);

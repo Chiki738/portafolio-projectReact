@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 .proyectos-container h3 {
@@ -16,16 +17,17 @@
 
 .proyectos {
     display: flex;
-    padding: 40px 15px;
-    gap: 50px;
+    padding: 15px 10px 50px 10px;
+    gap: 30px;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .proyectos>div {
     border: 3px solid #000000;
-    width: 400px;
-    min-height: 550px;
+    min-width: 280px;
+    max-width: 400px;
+    height: 580px;
     padding: 13px;
     border-radius: 20px;
     box-sizing: border-box;
@@ -34,11 +36,11 @@
 
 .proyectos>div h4 {
     text-align: center;
-    font-size: 23px;
+    font-size: clamp(1.5rem, 1.286rem + 0.571vw, 1.8rem);
     text-decoration: underline
 }
 
-/* .proyectos>div>div {
+.proyectos>div>div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -53,21 +55,22 @@
 
 .proyectos .proyectos-figure img {
     width: 100%;
-    border: 1px solid #000000;
 }
 
 .proyectos p {
     text-align: justify;
-} */
+    font-size: 1rem;
+}
 
-/* .proyectos-tecnologia h5 {
-    font-size: 17px;
+.proyectos-tecnologia h5 {
+    font-size: 1.2rem;
     text-align: center;
-} */
+}
 
-/* .proyectos-tecnologia>div {
+.proyectos-tecnologia>div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
 }
 
@@ -81,15 +84,15 @@
 
 .proyectos-tecnologia img {
     width: 100%;
-} */
+}
 
-/* .proyectos button {
-    font-size: 23px;
+.proyectos button {
+    font-size: clamp(1.3rem, 1.229rem + 0.19vw, 1.4rem);
     padding: 5px;
     border-radius: 10px;
-} */
+}
 
-/* .proyectos-button {
+.proyectos-button {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -98,7 +101,7 @@
 .proyectos button:hover {
     background-color: rgb(255, 238, 111);
     cursor: pointer;
-} */
+}
 
 
 @media only screen and (min-width:426px) and (max-width:1023px) {

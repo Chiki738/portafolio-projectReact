@@ -5,7 +5,7 @@
     height: 100vh;
     min-height: 518px;
     min-width: 300px;
-    background-image: url("../assets/fondoinicio.svg");
+    background-image: url("../assets/fondoInicio.svg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -34,6 +34,42 @@
     font-weight: bold;
     font-size: clamp(1rem, 0.643rem + 0.952vw, 1.5rem);
     color: white;
+}
+
+/*tedcnologias utilizadas*/
+.herramientas {
+    min-width: 300px;
+    padding: 30px;
+    border-bottom: 2px solid black;
+    background-color: rgb(255, 247, 179);
+    box-sizing: border-box;
+}
+
+.herramientas h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.tecnologias-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.tecnologias-grid figure {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.tecnologias-grid img {
+    width: 100%; /* Para que la imagen no se desborde */
+    height: 100%; /* Asegura que las imágenes se mantengan dentro del tamaño asignado */
+    object-fit: contain; /* Ajusta la imagen dentro de la figura sin distorsión */
 }
 
 /*Codigo para la cartilla*/
