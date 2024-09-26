@@ -69,17 +69,4 @@
     .redes-enlace {
         margin-top: 8px;
     }
-
-    @media(max-width:425px) {
-
-        /* .footer-container>p {
-            font-size: 13px;
-        }
-
-
-        .redes-enlace a {
-            font-size: 13px;
-        } */
-    }
-
 }
