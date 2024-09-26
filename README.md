@@ -30,45 +30,5 @@ JavaScript
 GitHub
 Vercel
 
-## Instalación
-Sigue los siguientes pasos para instalar y ejecutar el proyecto en tu entorno local:
-
-1- Clona el repositorio:
-bash
-Copiar código
-git clone https://github.com/Chiki975/portafolio-projectReact.git
-
-2- Navega al directorio del proyecto:
-bash
-Copiar código
-cd portafolio-projectReact
-
-3- Instala las dependencias:
-bash
-Copiar código
-npm install
-
-4- Inicia el servidor de desarrollo:
-bash
-Copiar código
-npm start
-
-El proyecto debería estar ejecutándose en http://localhost:3000.
-
 ## Uso
 Puedes navegar por las diferentes secciones del portafolio a través del menú principal. En la sección de proyectos, puedes encontrar una lista de mis proyectos más destacados, con enlaces directos a los repositorios de GitHub y, si están disponibles, a las versiones desplegadas en línea.
-
-## Estructura del Proyecto
-
-.
-├── public/
-├── src/
-│   ├── assets/          # Imágenes y otros recursos
-│   ├── components/      # Componentes reutilizables
-│   ├── pages/           # Páginas principales del sitio
-│   ├── styles/          # Archivos CSS personalizados
-│   ├── App.jsx          # Componente principal de la aplicación
-│   ├── main.jsx         # Punto de entrada de la aplicación
-│   └── utils/           # Hooks y utilidades
-├── README.md            # Este archivo
-└── package.json         # Dependencias del proyecto
