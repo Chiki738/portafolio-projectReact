@@ -66,8 +66,7 @@ header a {
 }
 
 header a:hover {
-    color: rgb(0, 38, 255);
-    text-shadow: 1px 1px 1px rgb(70, 98, 255);
+    color: rgb(0, 25, 165);
 }
 
 .toggle_btn {

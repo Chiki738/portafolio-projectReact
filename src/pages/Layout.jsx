@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Outlet, Link } from "react-router-dom";
 import Dialogo from "../pages/Dialog.jsx";
 import logo from "../assets/logo.svg";
-import cv from "../pdf/Carlos_Alzamora_CV_FrontEnd.pdf";
+import cv from "../pdf/CV_Carlos_Alzamora_Front_End.pdf";
 import DropdownMenu from "../pages/DropdownMenu.jsx";
 import Footer from "../pages/Footer.jsx";
 import "../styles/layout-style.css";

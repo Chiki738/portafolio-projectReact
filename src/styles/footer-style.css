@@ -49,14 +49,6 @@
     background-color: #ce2727;
 }
 
-#telegram {
-    background-color: #26aaff;
-}
-
-#whatsapp {
-    background-color: #4eff48;
-}
-
 .redes-enlace a:hover {
     cursor: pointer;
 }

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"; // Importa PropTypes
 import { Link } from "react-router-dom";
-import cv from "../pdf/Carlos_Alzamora_CV_FrontEnd.pdf";
+import cv from "../pdf/CV_Carlos_Alzamora_Front_End.pdf";
 import "../styles/dropdownMenu-style.css";
 
 // Función para manejar la descarga del CV

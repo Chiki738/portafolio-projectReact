@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import perfil from "../assets/fotoInicio.svg";
 import "../styles/inicio-style.css";
-import cv from "../pdf/Carlos_Alzamora_CV_FrontEnd.pdf";
+import cv from "../pdf/CV_Carlos_Alzamora_Front_End.pdf";
 import html from "../img/html.png";
 import css from "../img/css.png";
 import js from "../img/js.png";

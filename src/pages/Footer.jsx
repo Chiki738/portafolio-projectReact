@@ -25,23 +25,7 @@ function Footer() {
         </a>
 
         <a
-          href=""
-          title="WhatsApp"
-          target="_blank"
-          rel="noopener noreferrer">
-          <i className="fa-brands fa-whatsapp" id="whatsapp"></i>
-        </a>
-
-        <a
-          href=""
-          title="Telegram"
-          target="_blank"
-          rel="noopener noreferrer">
-          <i className="fa-brands fa-telegram" id="telegram"></i>
-        </a>
-
-        <a
-          href=""
+          href="mailto:danielalzamorahuaman123@gmail.com"
           title="Gmail"
           target="_blank"
           rel="noopener noreferrer">
