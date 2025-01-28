@@ -4,7 +4,6 @@ header {
     width: 100%;
     background: rgb(255, 238, 111);
     border-bottom: 1px solid #000000;
-    padding: 3px 0;
     min-width: 300px;
     transition: background-color 0.3s, position 0.3s;
     /* Transiciones para color y posición */
@@ -28,7 +27,7 @@ header a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 5px;
+    padding: 8px 5px;
 }
 
 .nav_ul {
