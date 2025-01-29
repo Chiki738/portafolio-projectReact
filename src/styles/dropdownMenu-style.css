@@ -1,4 +1,4 @@
-.dropdown_menu {
+/* .dropdown_menu {
     position: absolute;
     width: 100%;
     background: rgba(255, 238, 111, 0.5);
@@ -16,9 +16,8 @@
     font-size: 1rem;
 }
 
-/* Ocultar el menú en pantallas grandes */
 @media (min-width: 1024px) {
     .dropdown_menu {
         display: none;
     }
-}
+} */

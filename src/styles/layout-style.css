@@ -1,22 +1,18 @@
-/* styles/layout-style.css */
-header {
+/* header {
     position: absolute;
     width: 100%;
     background: rgb(255, 238, 111);
     border-bottom: 1px solid #000000;
     min-width: 300px;
     transition: background-color 0.3s, position 0.3s;
-    /* Transiciones para color y posición */
 }
 
 header.fixed {
     position: fixed;
-    /* Posición fija al hacer scroll */
     top: 0;
     left: 0;
     right: 0;
     background-color: #fff34d;
-    /* Fondo al hacer scroll */
 }
 
 header a {
@@ -84,4 +80,4 @@ header a:hover {
     .toggle_btn {
         display: block;
     }
-}
+} */
