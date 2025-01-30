@@ -1,19 +1,17 @@
 import { Helmet } from "react-helmet-async";
 import "../styles/inicio-style.css";
+import { getSelectedLogos } from "../data/selectedLogos";
 import { logos } from "../data/logos.jsx";
 import perfil from "../assets/fotoInicio.svg";
 import cv from "../pdf/cv/CV_Carlos_Alzamora.pdf";
 
-const selectedImages = ["html", "css", "js", "react", "gitHub", "vercel"];
+const selectedImages = ["html", "css", "js", "react", "github", "vercel"];
 
 const herramientas = {
-  tecnologias: logos
-    .filter((image) =>
-      selectedImages
-        .map((n) => n.toLowerCase())
-        .includes(image.nombre.toLowerCase())
-    )
-    .map((image) => ({ src: image.archivo, alt: image.nombre })),
+  tecnologias: getSelectedLogos(selectedImages).map((logo) => ({
+    src: logo.archivo,
+    alt: logo.nombre,
+  })),
 };
 
 function Inicio() {

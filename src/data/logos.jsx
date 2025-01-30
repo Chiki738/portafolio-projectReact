@@ -1,7 +1,7 @@
 import html from "../img/programas/html.png";
 import bootstrap from "../img/programas/bootstrap.png";
 import css from "../img/programas/css.png";
-import gitHub from "../img/programas/github.png";
+import github from "../img/programas/github.png";
 import java from "../img/programas/java.png";
 import js from "../img/programas/js.png";
 import php from "../img/programas/php.png";
@@ -31,7 +31,7 @@ export const logos = [
   },
   {
     nombre: "github",
-    archivo: gitHub,
+    archivo: github,
   },
   {
     nombre: "vercel",
