@@ -1,4 +1,4 @@
-/* .overlay {
+.overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -26,7 +26,7 @@
 
 
 .dialog-ms p {
-    font-size: clamp(1rem, 0.821rem + 0.476vw, 1.25rem);
+    font-size: clamp(1rem, 0.857rem + 0.381vw, 1.2rem);
     font-weight: bold;
 }
 
@@ -43,4 +43,4 @@
 
 .dialog-ms button:hover {
     background-color: #ffe627;
-} */
+}

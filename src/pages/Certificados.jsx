@@ -1,6 +1,5 @@
-// import "../styles/certificados-style.css";
+import "../styles/certificados-style.css";
 
-// // Importa todos los PDFs
 // import excel from "../pdf/excel.pdf";
 // import ingles from "../pdf/ingles.pdf";
 // import soporte from "../pdf/soporte.pdf";
@@ -14,7 +13,6 @@
 // import htmlcss4 from "../pdf/htmlycss4.pdf";
 // import logicajs from "../pdf/logicaprogramaacionjs.pdf";
 // import logica from "../pdf/logicaprogramaacion.pdf";
-// // Añade más importaciones según sea necesario
 
 // const pdfs = [
 //   {
@@ -98,28 +96,28 @@
 //   },
 // ];
 
-// function Certificados() {
-//   return (
-//     <div className="certificados-container">
-//       <h3>Certificados</h3>
+function Certificados() {
+  return (
+    <div className="certificados-container">
+      {/* <h3>Certificados</h3>
 
-//       <div className="certificados">
-//         {pdfs.map((pdf, index) => (
-//           <div key={index}>
-//             <h4>{pdf.title}</h4>
+      <div className="certificados">
+        {pdfs.map((pdf, index) => (
+          <div key={index}>
+            <h4>{pdf.title}</h4>
 
-//             <p>
-//               <strong>Descripción:</strong>&nbsp;{pdf.description}
-//             </p>
+            <p>
+              <strong>Descripción:</strong>&nbsp;{pdf.description}
+            </p>
 
-//             <a href={pdf.src} target="_blank" rel="noopener noreferrer">
-//               <button>DESCARGAR</button>
-//             </a>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
+            <a href={pdf.src} target="_blank" rel="noopener noreferrer">
+              <button>DESCARGAR</button>
+            </a>
+          </div>
+        ))}
+      </div> */}
+    </div>
+  );
+}
 
-// export default Certificados;
+export default Certificados;

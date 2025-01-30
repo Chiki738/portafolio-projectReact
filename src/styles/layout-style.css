@@ -1,9 +1,7 @@
-/* header {
+header {
     position: absolute;
     width: 100%;
     background: rgb(255, 238, 111);
-    border-bottom: 1px solid #000000;
-    min-width: 300px;
     transition: background-color 0.3s, position 0.3s;
 }
 
@@ -23,16 +21,16 @@ header a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 8px 5px;
+    padding: clamp(0.5rem, 0.3rem + 0.312vw, 0.8rem) clamp(0.3rem, 0.1rem + 0.312vw, 0.6rem);
 }
 
 .nav_ul {
-    gap: 30px;
+    gap: clamp(1.8rem, 0.935rem + 1.353vw, 3.1rem);
     display: flex;
 }
 
 .nav_ul a {
-    font-size: 1rem;
+    font-size: clamp(1rem, 0.401rem + 0.937vw, 1.9rem);
 }
 
 #layout_navbar-logo {
@@ -42,8 +40,8 @@ header a {
 }
 
 #layout_navbar-logo figure {
-    width: 45px;
-    height: 45px;
+    width: clamp(2.8rem, 0.47rem + 3.643vw, 6.3rem);
+    height: clamp(2.8rem, 0.47rem + 3.643vw, 6.3rem);
     border-radius: 50%;
 }
 
@@ -55,7 +53,7 @@ header a {
 }
 
 #layout_navbar-logo h2 {
-    font-size: clamp(1.8rem, 1.3rem + 1.333vw, 2.5rem);
+    font-size: clamp(1.8rem, -0.064rem + 2.915vw, 4.6rem);
     color: rgb(0, 0, 0);
     text-shadow: 1px 3px 3px rgb(75, 75, 75);
 }
@@ -80,4 +78,4 @@ header a:hover {
     .toggle_btn {
         display: block;
     }
-} */
+}

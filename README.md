@@ -33,9 +33,3 @@ Este portafolio fue desarrollado utilizando React y otras tecnologías web moder
 - JavaScript
 - GitHub
 - Vercel
-
-## Instalación
-
-1. Clona el repositorio:
-   ```sh
-   git clone https://github.com/Chiki975/portafolio-projectReact.git

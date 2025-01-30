@@ -1,4 +1,4 @@
-/* .dropdown_menu {
+.dropdown_menu {
     position: absolute;
     width: 100%;
     background: rgba(255, 238, 111, 0.5);
@@ -20,4 +20,4 @@
     .dropdown_menu {
         display: none;
     }
-} */
+}

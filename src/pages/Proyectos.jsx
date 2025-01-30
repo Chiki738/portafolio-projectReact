@@ -11,7 +11,7 @@
 // import bootstrap from "../img/bootstrap.png";
 // import php from "../img/php.png";
 // import bot from "../img/botpress.png";
-// import "../styles/proyectos-style.css";
+import "../styles/proyectos-style.css";
 
 // const proyectos = [
 //   {
@@ -127,63 +127,63 @@
 //   },
 // ];
 
-// function Proyectos() {
-//   return (
-//     <div className="proyectos-container">
-//       <h3>PROYECTOS</h3>
+function Proyectos() {
+  return (
+    <div className="proyectos-container">
+      {/* <h3>PROYECTOS</h3>
 
-//       <div className="proyectos">
-//         {proyectos.map((proyecto, index) => (
-//           <div key={index}>
-//             <h4>{proyecto.title}</h4>
+      <div className="proyectos">
+        {proyectos.map((proyecto, index) => (
+          <div key={index}>
+            <h4>{proyecto.title}</h4>
 
-//             <div>
-//               <figure className="proyectos-figure">
-//                 <img src={proyecto.imgSrc} />
-//               </figure>
+            <div>
+              <figure className="proyectos-figure">
+                <img src={proyecto.imgSrc} />
+              </figure>
 
-//               <p>
-//                 <strong>DESCRIPCIÓN:</strong>&nbsp;{proyecto.description}
-//               </p>
+              <p>
+                <strong>DESCRIPCIÓN:</strong>&nbsp;{proyecto.description}
+              </p>
 
-//               <div className="proyectos-tecnologia">
-//                 <h5>Tecnología usada:</h5>
-//                 <div>
-//                   {proyecto.tecnologias.map((tec, i) => (
-//                     <figure key={i}>
-//                       <img src={tec.src} />
-//                     </figure>
-//                   ))}
-//                 </div>
-//               </div>
+              <div className="proyectos-tecnologia">
+                <h5>Tecnología usada:</h5>
+                <div>
+                  {proyecto.tecnologias.map((tec, i) => (
+                    <figure key={i}>
+                      <img src={tec.src} />
+                    </figure>
+                  ))}
+                </div>
+              </div>
 
-//               <div className="proyectos-button">
-//                 {proyecto.botones.map(
-//                   (boton, i) =>
-//                     boton.mostrar && (
-//                       <a
-//                         key={i}
-//                         href={boton.href}
-//                         target="_blank"
-//                         rel="noopener noreferrer">
-//                         <button>
-//                           {boton.tipo === "github" ? (
-//                             <i className="fa-brands fa-github"></i>
-//                           ) : (
-//                             <i className="fa-solid fa-globe"></i>
-//                           )}
-//                           &nbsp;{boton.tipo.toUpperCase()}
-//                         </button>
-//                       </a>
-//                     )
-//                 )}
-//               </div>
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
+              <div className="proyectos-button">
+                {proyecto.botones.map(
+                  (boton, i) =>
+                    boton.mostrar && (
+                      <a
+                        key={i}
+                        href={boton.href}
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <button>
+                          {boton.tipo === "github" ? (
+                            <i className="fa-brands fa-github"></i>
+                          ) : (
+                            <i className="fa-solid fa-globe"></i>
+                          )}
+                          &nbsp;{boton.tipo.toUpperCase()}
+                        </button>
+                      </a>
+                    )
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div> */}
+    </div>
+  );
+}
 
-// export default Proyectos;
+export default Proyectos;
