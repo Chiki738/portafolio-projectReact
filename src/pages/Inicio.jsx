@@ -38,6 +38,8 @@ function Inicio() {
         </main>
       </div>
 
+      <hr />
+
       <div className="cartilla-div-container" id="sobreMi">
         <div className="cartilla-div">
           <figure className="cartilla-div-figure">
