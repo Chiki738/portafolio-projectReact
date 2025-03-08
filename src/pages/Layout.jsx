@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Outlet, Link, useLocation } from "react-router-dom";
 import Dialogo from "../pages/Dialog.jsx";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 import cv from "../pdf/cv/CV_Carlos_Alzamora.pdf";
 import DropdownMenu from "../pages/DropdownMenu.jsx";
 import Footer from "../pages/Footer.jsx";
