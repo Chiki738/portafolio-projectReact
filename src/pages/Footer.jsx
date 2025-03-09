@@ -9,7 +9,7 @@ function Footer() {
 
       <div className="redes-enlace">
         <a
-          href="https://www.linkedin.com/in/daniel738/"
+          href="https://www.linkedin.com/in/chiki738/"
           title="LinkedIn"
           target="_blank"
           rel="noopener noreferrer">
@@ -25,7 +25,7 @@ function Footer() {
         </a>
 
         <a
-          href="mailto:danielalzamorahuaman123@gmail.com"
+          href="mailto:carlosalzamorah@gmail.com"
           title="Gmail"
           target="_blank"
           rel="noopener noreferrer">
